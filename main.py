@@ -36,20 +36,21 @@ def clear_screen() -> None:
 
 def print_banner() -> None:
     banner = """[bold white]
-        .---.                 [bright_yellow]╔══════════════════════════════╗[/]
-       /     \\                [bright_yellow]║[/]       [bold cyan]BasicDOS Framework[/]     [bright_yellow]║[/]
-      | () () |               [bright_yellow]║[/]      [bold red]Made by TrionixDev[/]      [bright_yellow]║[/]
-       \\  ^  /                [bright_yellow]╚══════════════════════════════╝[/]
-        |||||                 [bright_yellow][[/][bold red]WARNING[/][bright_yellow]][/] [bold white]Authorized Testing Only[/]
-       .'|||'.                [bright_yellow][[/][bold cyan]INFO[/][bright_yellow]][/] [bold white]Press Ctrl+C to Stop[/]
-  /\\  / /|||\\ \\               [bright_yellow][[/][bold green]MODE[/][bright_yellow]][/] [bold white]Async HTTPS | HTTP/2 | Stats[/]
- /  \\/ / ||| \\ \\
-/   / /  |||  \\ \\   [bold red]SOUL REAPER[/]
-   / /   |||   \\ \\
-  / /    |||    \\ \\
- / /     |||     \\ \\
-        _|||_
-       (_____)[/]"""
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀⠀⠀⠀⠀⠀⠀  [bright_yellow]╔══════════════════════════════╗[/]
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣴⣾⣿⣿⣿⣿⣿⣿⣶⣄⠀⠀⠀  [bright_yellow]║[/]       [bold cyan]BasicDOS Framework[/]     [bright_yellow]║[/]
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⠿⢿⣿⣿⣿⣿⣆⠀⠀  [bright_yellow]║[/]      [bold red]Made by TrionixDev[/]      [bright_yellow]║[/]
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⣿⣿⠁⠀⠿⢿⣿⡿⣿⣿⡆⠀  [bright_yellow]╚══════════════════════════════╝[/]
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣦⣤⣴⣿⠃⠀⠿⣿⡇⠀  [bright_yellow][[/][bold red]WARNING[/][bright_yellow]][/] [bold white]Authorized Testing Only[/]
+⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⡿⠋⠁⣿⠟⣿⣿⢿⣧⣤⣴⣿⡇⠀  [bright_yellow][[/][bold cyan]INFO[/][bright_yellow]][/] [bold white]Press Ctrl+C to Stop[/]
+⠀⠀⠀⠀⢀⣠⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⠀⠀⠀⠀⠘⠁⢸⠟⢻⣿⡿⠀⠀  [bright_yellow][[/][bold green]MODE[/][bright_yellow]][/] [bold white]Async HTTPS | HTTP/2 | Stats[/]
+⠀⠀⠙⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣴⣇⢀⣤⠀⠀⠀⠀⠘⣿⠃⠀⠀
+⠀⠀⠀⠀⠀⢈⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣴⣿⢀⣴⣾⠇⠀⠀⠀
+⠀⠀⣀⣤⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀
+⠀⠀⠉⠉⠉⠉⣡⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠃⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⡿⠟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀
+⠀⠀⣴⡾⠿⠿⠿⠛⠋⠉⠀⢸⣿⣿⣿⣿⠿⠋⢸⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⡿⠟⠋⠁⠀⠀⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]"""
     console.print(Align.center(banner))
 
 
